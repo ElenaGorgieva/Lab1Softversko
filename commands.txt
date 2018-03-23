@@ -1,0 +1,75 @@
+
+153104@lab200ab-ws30 MINGW64 ~
+$ mkdir lab1
+
+
+$ cd lab1
+
+
+$ notepad l1.txt
+
+
+$ git init
+
+
+$ git add .
+
+
+$ git commit -m "Initial commit"
+
+
+$ git add .
+
+$ git commit -m "modifi l1.txt"
+
+  
+$ git config --global user.name "Elena Gorgieva"
+
+$ git config --global user.email "elenagorgieva97@hotmail.com"
+
+
+$ git remote set-url origin https://github.com/ElenaGorgieva/Lab1Softversko.git
+
+$ git push -u origin master
+
+
+$ git add .
+
+
+$ git commit -m "Novo l1.txt"
+
+
+$ git reset --soft HEAD^
+
+
+$ git status
+
+
+$ git checkout -b logging
+
+
+$ notepad log.txt
+
+
+$ git log
+
+
+$ git push -u origin logging
+
+
+$ git checkout master
+
+
+
+$ git merge logging
+
+
+
+$ git branch -d logging
+
+
+$ git checkout -b allcomands
+
+
+$ notepad commands.txt
+

@@ -1,0 +1,12 @@
+$ git log
+commit 4edbe1a6850969cee07285f5f84717e04d1b741b (HEAD -> logging, origin/master, master)
+Author: unknown <elena.gorgieva@students.finki.ukim.mk>
+Date:   Fri Mar 23 15:55:47 2018 +0100
+
+    modifi l1.txt
+
+commit aaba83729a2e6319cddfb1b018d997d9dd0ae913
+Author: unknown <elena.gorgieva@students.finki.ukim.mk>
+Date:   Fri Mar 23 15:53:46 2018 +0100
+
+    Initial commit
